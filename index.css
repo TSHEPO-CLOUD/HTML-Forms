@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.9em;
 }
@@ -29,7 +29,7 @@ header nav .description {
 }
 
 header nav button {
-  background-color: #0077C5;
+  background-color: #0077c5;
   display: inline-block;
   border: 1px solid #222;
   margin-right: 3em;
@@ -47,7 +47,7 @@ nav .icons {
 
 @media only screen and (max-width: 768px) {
   nav {
-      display: none;
+    display: none;
   }
 }
 
@@ -56,7 +56,8 @@ main {
   display: flex;
 }
 
-main .col-1, main .col-3 {
+main .col-1,
+main .col-3 {
   flex-basis: 35%;
 }
 
@@ -65,12 +66,12 @@ main .container {
 }
 
 .container-footer {
-    font-size: 0.7em;
-    background-color: #f1f1f1;
-    color: #555;
-    padding: 1.5em;
-    border: 1px solid #ccc;
-    border-top: none;
+  font-size: 0.7em;
+  background-color: #f1f1f1;
+  color: #555;
+  padding: 1.5em;
+  border: 1px solid #ccc;
+  border-top: none;
 }
 
 /* == Footer == */
@@ -87,7 +88,6 @@ footer p {
 }
 
 /* == Form Container == */
-
 .form-container {
   background-color: #fff;
   padding: 1em 1.5em;
@@ -96,11 +96,11 @@ footer p {
 }
 
 .form-container-header {
-    color: #333;
+  color: #333;
 }
-  
+
 .form-container h2 {
-    font-weight:normal;
+  font-weight: normal;
 }
 
 .form-control {
@@ -123,7 +123,7 @@ footer p {
 }
 
 .form-control button {
-  background-color: #0077C5;
+  background-color: #0077c5;
   display: block;
   width: 100%;
   color: #fff;
@@ -135,7 +135,7 @@ footer p {
 }
 
 .form-control button:hover {
-  background-color: #0044AB;
+  background-color: #0044ab;
 }
 
 .form-container .paragraph span {
@@ -151,12 +151,12 @@ footer p {
 
 /* == Menu sprite == */
 .banner {
-    display: block;
-    background-image: url(./images/intoIt.png);
-    background-position: 0 0;
-    width: 117px;
-    height: 37px;
-    margin: 1em auto;
+  display: block;
+  background-image: url(./images/intoIt.png);
+  background-position: 0 0;
+  width: 117px;
+  height: 37px;
+  margin: 1em auto;
 }
 
 ul.menu-sprite {
@@ -186,7 +186,7 @@ ul.menu-sprite li {
 }
 
 .sprint {
-    background-image: url(./images/intoIt.png);
+  background-image: url(./images/intoIt.png);
 }
 
 .mint {
@@ -224,7 +224,7 @@ ul.menu-sprite li {
 
 a {
   text-decoration: none;
-  color: #0077C5;
+  color: #0077c5;
 }
 
 .privacy-settings-btn {
