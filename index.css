@@ -103,6 +103,10 @@ footer p {
   font-weight: normal;
 }
 
+.form-container .hide {
+  display: none;
+}
+
 .form-control {
   margin: 1.5em 0;
 }
