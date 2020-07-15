@@ -63,12 +63,24 @@
   
   main .container {
     flex-basis: 30%;
-    border: 1px solid red;
+  }
+  
+  
+  .container-footer {
+      font-size: 0.7em;
+      background-color: #f1f1f1;
+      color: #555;
+      padding: 1.5em;
+      border: 1px solid #ccc;
+      border-top: none;
   }
   
   /* == Footer == */
   footer {
-    background-color: green;
+    color: #444;
+    font-size: 0.8em;
+    padding: 1.6em;
+    line-height: 1.4;
   }
   
   footer p {
@@ -76,28 +88,21 @@
     padding: 0;
   }
   
-  /* == Container == */
-  
-  .container-footer {
-      font-size: 0.7em;
-      background-color: #f1f1f1;
-      color: #555;
-      padding: 1.5em;
-  }
-  
   /* == Form Container == */
-  
-  .form-container-header {
-    color: #333;
-  }
-  
-  .form-container h2 {
-    font-weight:normal;
-  }
   
   .form-container {
     background-color: #fff;
     padding: 1em 1.5em;
+    border: 1px solid #ccc;
+    border-bottom: none;
+  }
+  
+  .form-container-header {
+      color: #333;
+  }
+    
+    .form-container h2 {
+      font-weight:normal;
   }
   
   .form-control {
