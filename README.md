@@ -6,9 +6,9 @@
 
 ![Mint sign-up page](./images/app_screenshot2.png)
 
-This project consists of building an HTML document that matches the appearance of Mint.com sign-up page. 
+This project consists of building an HTML document that matches the appearance of [Mint.com](http://www.mint.com/) sign-up page.
 
-This is a collaborative project carried out by Tshepo Molefe and Bello Babakolo, as part of HTML Forms project.
+This is a collaborative project carried out by Tshepo Molefe and Bello Babakolo, as part of the HTML Forms project.
 
 ## Built With
 - HTML5
