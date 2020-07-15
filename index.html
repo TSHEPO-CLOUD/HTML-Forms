@@ -3,43 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
     <title>Intuit Accounts - Sign Up</title>
 </head>
 <body>
     <header>
         <nav>
-            <div class="discription"></div>
-            <button>Sign In</button>
+            <div class="nav-right-column">
+                <div class="description">
+                    <div class="fade">Already have an Intuit account?</div>
+                    <a href="#">I forgot my User ID or Password</a>
+                </div>
+                <button type="button">
+                    <i class="material-icons icons" style="font-size: 14px;">lock</i>
+                    Sign In
+                </button>
+            </div>
+            <div class="nav-left-column"></div>
         </nav>
     </header>
     <main>
         <aside class="col-1">Col 1</aside>
-        <section class="col-2 container">
-            <h3>Col 2</h3>
-            <div class="container-header"></div>
-            <form action="">
-                <div class="form-control">
-                    <label for="email">Email address</label>
-                    <input type="email" name="email" id="email">
+        <section class="container">
+            <div class="container-header">
+                <h2 class="banner">InTUIT</h2>
+                <ul class="menu">
+                    <li>logo</li>
+                    <li>mint</li>
+                    <li>logo</li>
+                    <li>quickbooks</li>
+                    <li>logo</li>
+                    <li>turbotax</li>
+                </ul>
+            </div>
+            <div class="form-container">
+                <div class="form-container-header">
+                    <h2>Create an Intuit account</h2>
+                    <div>One account for everything Intuit, including Mint</div>
+                    <a href="#">Learn more</a>
                 </div>
-                <div class="form-control">
-                    <label for="phone">Phone (recommended)</label>
-                    <input type="number" name="phone" id="phone">
+                <form action="">
+                    <div class="form-control">
+                        <label for="email">Email address</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-control">
+                        <label for="phone">Phone (recommended)</label>
+                        <input type="number" name="phone" id="phone">
+                    </div>
+                    <div class="form-control">
+                        <label for="pwd">Password</label>
+                        <input type="password" name="pwd" id="pwd">
+                    </div>
+                    <div class="form-control hide">
+                        <label for="pwd2">Confirm password</label>
+                        <input type="password" name="pwd2" id="pwd2">
+                    </div>
+                    <div>
+                        <button type="submit">Create Accounts</button>
+                    </div>
+                </form>
+                <div class="paragraph">
+                    <span>By clicking Create account, you agree to our</span>
+                    <span><a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy</a></span>
+                    <span><a href="#">Statement.</a></span>
                 </div>
-                <div class="form-control">
-                    <label for="pwd">Password</label>
-                    <input type="password" name="pwd" id="pwd">
-                </div>
-                <div class="form-control hide">
-                    <label for="pwd2">Confirm password</label>
-                    <input type="password" name="pwd2" id="pwd2">
-                </div>
-                <div>
-                    <button type="submit">Create Accounts</button>
-                </div>
-            </form>
-            <div class="container-footer"></div>
+                <div class="form-container-footer"></div>
+            </div>
         </section>
         <aside class="col-3">Col 3</aside>
     </main>
