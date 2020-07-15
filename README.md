@@ -18,7 +18,7 @@ This is a collaborative project carried out by Tshepo Molefe and Bello Babakolo,
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/TSHEPO-CLOUD/HTML-Forms/mint-signup-page/index.html)
+[Live Demo Link](https://raw.githack.com/TSHEPO-CLOUD/HTML-Forms/master/index.html)
 
 
 ## Getting Started
