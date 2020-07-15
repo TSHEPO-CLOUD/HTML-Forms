@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #eceef1;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.9em;
+}
+
+/* == header styles == */
+header {
+  padding: 0.4em;
+}
+
+nav {
+  flex-direction: row-reverse;
+}
+
+button {
+  width: 100%;
+  color: #fff;
+  display: block;
+}
+
+header nav .description {
+  display: inline-block;
+  font-size: 0.9em;
+  vertical-align: middle;
+  padding: 0.1em;
+}
+
+header nav button {
+  background-color: #0077c5;
+  border: 1px solid #222;
+  margin-right: 3em;
+  font-size: 14px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+nav i.icons {
+  vertical-align: text-top;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}
+
+/* == Main Layout == */
+main .col-1,
+main .col-3 {
+  flex-basis: 35%;
+}
+
+main .container {
+  flex-basis: 30%;
+}
+
+.container-footer {
+  font-size: 0.7em;
+  background-color: #f1f1f1;
+  color: #555;
+  padding: 1.5em;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* == Footer == */
+footer {
+  color: #444;
+  font-size: 0.8em;
+  padding: 1.6em;
+  line-height: 1.4;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+/* == Form Container == */
+.form-container {
+  background-color: #fff;
+  padding: 1em 1.5em;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+
+.form-container-header {
+  color: #333;
+}
+
+.form-container h2 {
+  font-weight: normal;
+}
+
+.form-container .hide {
+  display: none;
+}
+
+.form-control {
+  margin: 1.5em 0;
+}
+
+.form-control label {
+  text-align: left;
+  display: block;
+  padding-bottom: 0.5em;
+}
+
+.form-control input {
+  width: 100%;
+  border: 1px solid #aaa;
+  padding: 5px 8px;
+  font-size: 1.2em;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-control button {
+  background-color: #0077c5;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2em;
+  padding: 0.5em 0;
+}
+
+.form-control button:hover {
+  background-color: #0044ab;
+}
+
+.form-container .paragraph span {
+  display: block;
+  padding: 0.1em;
+}
+
+.form-control .input-info-text {
+  font-size: 0.7em;
+  text-align: left;
+  padding: 0.3em 0;
+}
+
+/* == Menu sprite == */
+.banner {
+  display: block;
+  background-image: url(./images/intoIt.png);
+  background-position: 0 0;
+  width: 117px;
+  height: 37px;
+  margin: 1em auto;
+}
+
+ul.menu-sprite {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 1em 0;
+  padding: 0 3em;
+}
+
+ul.menu-sprite li {
+  display: inline-block;
+}
+
+.icon {
+  width: 27px;
+  height: 27px;
+  background-image: url(./images/intoIt.png);
+}
+
+.logo-1 {
+  background-position: -251px -55px;
+}
+
+.logo-2 {
+  background-position: -114px -55px;
+}
+
+.sprint {
+  background-image: url(./images/intoIt.png);
+}
+
+.mint {
+  width: 43px;
+  height: 19px;
+  background-position: -280px -58px;
+}
+
+.quickbook-logo {
+  width: 108px;
+  height: 21px;
+  background-position: -138px -58px;
+}
+
+.turbotax {
+  width: 81px;
+  height: 21px;
+  background-position: -25px -58px;
+}
+
+.logo-3 {
+  background-position: 0 -55px;
+}
+
+/* == Misc. == */
+.flex {
+  display: flex;
+}
+
+.paragraph {
+  font-style: italic;
+  font-size: 0.75em;
+}
+
+a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.privacy-settings-btn {
+  position: fixed;
+  bottom: 0;
+  color: #fff;
+  right: 5%;
+  background-color: #777;
+  width: 9rem;
+  padding: 1em 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
