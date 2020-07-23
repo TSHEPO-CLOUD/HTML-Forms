@@ -165,6 +165,7 @@ ul.menu-sprite {
   list-style-type: none;
   margin: 1em 0;
   padding: 0 3em;
+  align-items: center;
 }
 
 ul.menu-sprite li {
@@ -185,13 +186,17 @@ ul.menu-sprite li {
   background-position: -114px -55px;
 }
 
+.logo-3 {
+  background-position: 0 -55px;
+}
+
 .sprint {
   background-image: url(./images/intoIt.png);
 }
 
 .mint {
   width: 43px;
-  height: 19px;
+  height: 21px;
   background-position: -280px -58px;
 }
 
@@ -205,10 +210,6 @@ ul.menu-sprite li {
   width: 81px;
   height: 21px;
   background-position: -25px -58px;
-}
-
-.logo-3 {
-  background-position: 0 -55px;
 }
 
 /* == Misc. == */
