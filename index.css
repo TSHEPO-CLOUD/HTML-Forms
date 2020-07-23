@@ -49,8 +49,9 @@ nav i.icons {
 }
 
 @media only screen and (max-width: 768px) {
-  nav {
+  header {
     display: none;
+    border: 1px solid red;
   }
 }
 
